@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>Pixelator</h1>
+            <p>Convert any image into a pixel gif!!!</p>
+        </div>
+
+        <div class="main">
+            <div class="image_holder">
+                <label for="image">
+                    upload your image
+                </label>
+                <input type="file" name="image" id="image">
+                <br>
+                <img id="image_display" alt="" width="200" height="200">
+            </div>
+            <button type="submit" id="btnSubmit" disabled>pixelate!!</button>
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
